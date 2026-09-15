@@ -12,7 +12,7 @@ public class Main {
         String inputNumber = scanner.next().toUpperCase();
         int decimal = baseToDec(inputNumber, base);
 
-        System.out.println("");
+        System.out.print("\n");
 
         System.out.println("Decimal: " + decimal);
         System.out.println("Binary: " + decToBase(decimal, 2));
